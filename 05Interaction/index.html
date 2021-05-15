@@ -37,12 +37,13 @@
           to: red;
           startEvents: mouseleave;
           dur: 500;"
-        animation_click=
-          "property: scale;
+        animation_click="
+          property: scale;
           from: 1 1 1
           to: 2 2 2;
           ease: linear;
-          ">
+          startEvents: mouseclick;"
+          >
       </a-box>
       <a-box id="myOtherBox"
         position="2 1 -3"
