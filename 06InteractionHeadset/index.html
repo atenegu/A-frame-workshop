@@ -18,7 +18,11 @@
 
       <a-camera>
         <a-entity id="mouseCursor"
-          cursor="fuse: true; fuseTimeout: 1500">
+          cursor="fuse: true; fuseTimeout: 1500"
+
+          id="cursor"
+          position="0 0 -1"
+          material="src: #cursor">
         </a-entity>
         <!-- <a-triangle id="cursorRing"
           position="0 0 -1"
@@ -26,10 +30,8 @@
           radius-outer= "0.03"
           material="color: red; shader: flat">
         </a-triangle> -->
-        <a-triangle id="cursor"
-          position="0 0 -1"
-          material="src: #cursor">
-        </a-triangle>
+
+
       </a-camera>
 
       <a-box id="myBox"
