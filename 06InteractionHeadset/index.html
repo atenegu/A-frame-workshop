@@ -13,6 +13,7 @@
           <img id="wood" src="images/wood.jpg" />
           <img id="wood2" src="images/wood2.jpg" />
           <img id="grass" src="images/grass.jpg" />
+          <img id="dot" src="images/dot.png" />
       </a-assets>
 
       <a-camera>
@@ -23,8 +24,10 @@
           position="0 0 -1"
           radius-inner= "0.02"
           radius-outer= "0.03"
-          material="color: #FFFFFF; opacity: 0.5; shader: flat">
+
+          material="src: #dot; repeat: 10 10">
         </a-ring>
+                  <!-- material="color: #FFFFFF; opacity: 0.5; shader: flat" -->
 
         <!-- <a-ring id="cursorRing"
           position="1 1 -1"
