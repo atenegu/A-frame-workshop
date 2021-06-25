@@ -33,9 +33,9 @@ var i=o;
 
 function grow(){
 	for(i=0; i>100; i++){}
-	myOtherBox.object3D.scale.x *= growspeed;
-	myOtherBox.object3D.scale.y *= growspeed;
-	myOtherBox.object3D.scale.z *= growspeed;
+	myOtherBox.object3D.scale.x *= growspeed+1;
+	myOtherBox.object3D.scale.y *= growspeed+1;
+	myOtherBox.object3D.scale.z *= growspeed+1;
 	//console.log(myOtherBox.object3D.scale);
 }
 }
